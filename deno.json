@@ -1,0 +1,8 @@
+{
+  "name": "survey",
+  "fmt": {
+    "proseWrap": "never",
+    "singleQuote": true,
+    "semiColons": false
+  }
+}

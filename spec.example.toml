@@ -1,0 +1,42 @@
+[meta]
+name = "my form"
+
+[[questions]]
+type = "radio"
+prompt = "Which item is the thing?"
+answers = [ "one", "two", "three" ]
+
+[[questions]]
+type = "checkbox"
+prompt = "Is this the best, or what?"
+
+[[questions]]
+type = "checkboxes"
+prompt = "what kinds of fruits do you like?"
+answers = [ "orange", "apple", "potato" ]
+
+[[questions]]
+type = "rating"
+prompt = "Is this feature the best?"
+
+[[questions]]
+type = "upload"
+prompt = "Send noods plz"
+filetypes = ["image"]
+
+[[questions]]
+type = "text"
+questions = "How do you feel about pandas?"
+
+[[questions]]
+type = "text.email"
+prompt = "What is your email?"
+
+[[questions]]
+type = "textarea"
+maxlength = 5000
+prompt = "Write me a novel"
+
+[[questions]]
+type = "datetime"
+prompt = "When do you want to party?"
